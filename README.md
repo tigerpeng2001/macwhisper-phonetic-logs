@@ -1,46 +1,72 @@
-# 🗣️ Language Pronunciation Journey: M4 Max Edition
+# 🎙️ whisper-phonetic-logs
 
-This repository is a version-controlled log of my journey toward native-level pronunciation in English and Chinese. I use my Mac's Neural Engine to run "Honest AI" models that highlight my mistakes rather than hiding them.
+A data-driven approach to mastering English and Chinese pronunciation using the M4 Max Neural Engine and "Honest AI" feedback.
 
 ---
 
-## 🛠️ The Tech Stack
+## 🛠️ The Toolkit
 * **Hardware:** MacBook Pro (M4 Max)
-* **Transcription:** [MacWhisper](https://macwhisper.com) (using the **Tiny** model for "Zero-Autocorrect" feedback).
+* **Transcription:** [MacWhisper](https://macwhisper.com) (Tiny Model) - used as the "Honest Ear."
+* **Benchmarking:** [ElevenLabs](https://elevenlabs.io/) - used for generating "Gold Standard" audio for comparison.
 * **Storage:** GitHub with **Git LFS** for audio tracking.
-* **Coach:** Gemini AI (for phonetic analysis and mouth-position exercises).
+* **Analysis:** Gemini AI - used for phonetic coaching and mouth-positioning.
 
 ---
 
-## 📈 Initial Practice Session: Jan 25, 2026
+## 📂 File Structure
+```text
+.
+├── 日本語
+├── audio
+│   └── English
+│       └── 2026
+│           └── 01
+│               ├── 25.s1.m4a
+│               └── 25.s2.m4a
+├── English
+│   └── 2026
+│       └── 01
+│           └── 25.md
+├── español
+└── README.md
+```
 
-### **Target Verse**
-> "God stays one with everyone who openly says Jesus is the Son of God. This is how we stay one with God and assure God loves us."
+## ⚙️ Workflow & Technical Setup
 
-### **Version 1 (The "Tiny" Ear)**
-* **Transcript:** `God, this is one with everyone who opens his Jesus' name, Jesus' name of God. This is the hall with the one with God and our sure God knows us.`
-* **Diagnosis:** Significant confusion around "stays one" and "openly says."
+1. **Recording & Exporting (MacWhisper)**
+	 - Open MacWhisper: Select the Tiny model for maximum phonetic honesty.
+	 - Record: Use the microphone icon to record your verse.
+	 - Export Audio:
+		 1. Right-click the recording in the sidebar.
+		 2. Select Export Audio...
+		 3. Save as .m4a or .mp3 to the corresponding path: audio/[Language]/[Year]/[Month]/[Day].s[Number].m4a.
+	 - Export Transcript: Copy the text directly or export as a text file to [Language]/[Year]/[Month]/[Day].md.
 
-### **Version 2 (The Correction)**
-* **Transcript:** `GOT STAY'S WON with everyone who openly says Jesus is the son of God this is how we stay in one with God and are sure God loves us.`
-* **Improvements:** Successfully captured "openly says," "son of God," and "loves us."
+2. **Tracking Audio (Git LFS)**
 
+   Since audio files are binary and large, we use Git Large File Storage to prevent the repository from bloating.
+   - Initialize LFS (Once): git lfs install
+   - Track Audio Formats:
+        ```
+        git lfs track "audio/**/*.m4a"
+        git lfs track "audio/**/*.mp3"
+        git add .gitattributes
+        ```
+3. **Syncing to GitHub**
+
+    Always follow this sequence to ensure your "Journey" is saved:
+        ```
+        # Move to repo root
+        cd ~/personal/git/macwhisper-phonetic-logs
+
+        # Add all changes
+        git add .
+
+        # Commit with a meaningful note
+        git commit -m "Practice [Date]: Fixed vowel clarity in 1 John 4"
+
+        # Push to the cloud (using SSH Alias)
+        git push origin main
+        ```
 ---
-
-## 💡 Gemini's Foundational Feedback
-| Error Found | Phonetic Reason | Correction Exercise |
-| :--- | :--- | :--- |
-| **"GOT"** instead of **GOD** | Hard "T" cutoff. | Throat vibration: Feel the "D" hum. |
-| **"KNOWS"** vs **LOVES** | Soft "L" placement. | Tongue-to-roof contact behind teeth. |
-| **"R-SURE"** | Missing linking "R". | Practice "Linking": *And-ah-R-sure*. |
-
----
-
-## 🚀 How to Log Progress
-1. Record audio in **MacWhisper (Tiny)**.
-2. Export text and save audio to `/audio` and `/transcripts`.
-3. Paste results to Gemini for analysis.
-4. Update this log and `git push`.
-
----
-*“If the AI writes it wrong, I said it wrong. If the AI writes it right, I’ve mastered the sound.”*
+*“If the Tiny model understands me, the world will too.”*
