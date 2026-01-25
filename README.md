@@ -1,6 +1,9 @@
 # 🎙️ whisper-phonetic-logs
 
-A data-driven approach to mastering English and Chinese pronunciation using the M4 Max Neural Engine and "Honest AI" feedback.
+A data-driven approach to mastering English and other pronunciation using the M4 Max Neural Engine and "Honest AI" feedback.
+
+Using YouVersion Verse of the Day as the practice resource.
+* **English** Version Choose Contemporary English Version (CEV)
 
 ---
 
