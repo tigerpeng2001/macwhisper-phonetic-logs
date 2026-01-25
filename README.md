@@ -46,6 +46,8 @@ A data-driven approach to mastering English and Chinese pronunciation using the 
 
    Since audio files are binary and large, we use Git Large File Storage to prevent the repository from bloating.
    - Initialize LFS (Once): git lfs install
+   
+        *You may need install LFS extension first ```brew install git-lfs```*
    - Track Audio Formats:
         ```
         git lfs track "audio/**/*.m4a"
