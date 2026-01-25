@@ -41,6 +41,18 @@ A data-driven approach to mastering English and Chinese pronunciation using the 
 		 2. Select Export Audio...
 		 3. Save as .m4a or .mp3 to the corresponding path: audio/[Language]/[Year]/[Month]/[Day].s[Number].m4a.
 	 - Export Transcript: Copy the text directly or export as a text file to [Language]/[Year]/[Month]/[Day].md.
+     - Uploading Audio to GitHub:
+        
+        GitHub does not redender the .m4a file the following is the step to upload the audio file to GitHub for playing back.
+		 1. rename .m4a file to .mp4 file.
+         2. Open the log file (e.g., `2026/01/25.md`) in the **GitHub Web Editor**.
+         3. **Drag and Drop** the `.mp4` file directly into the editor to generate a GitHub asset URL.
+         4. Wrap the URL with ```<code>``` and the name you'd like to show the clickable link
+
+            ```<code>[▶️ 25.s1](https://github.com/user-attachments/assets/7403aa68-bae1-4d72-949b-5652baa697f1)</code>```
+         5. Clicking this will open the audio/video in a new browser tab.
+         6. Remember do ```git pull``` after doing the work through Web GUI.
+
 
 2. **Tracking Audio (Git LFS)**
 
