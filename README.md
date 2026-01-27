@@ -44,6 +44,7 @@ Using YouVersion Verse of the Day as the practice resource.
 		 1. Right-click the recording in the sidebar.
 		 2. Select Export Audio...
 		 3. Save as .m4a or .mp3 to the corresponding path: audio/[Language]/[Year]/[Month]/[Day].s[Number].m4a.
+         4. Play back the audio file to toPhonics for API transcript.	
 	 - Export Transcript: 
     	 - 	Copy the text and IPA to [Language]/[Year]/[Month]/[Day].md.
          - 	Copy the text and IPA to Gemini for Analysis & Coaching.
