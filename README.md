@@ -11,6 +11,7 @@ Using YouVersion Verse of the Day as the practice resource.
 * **Hardware:** MacBook Pro (M4 Max)
 * **Transcription:** [MacWhisper](https://macwhisper.com) (Tiny Model) - used as the "Honest Ear."
 * **Benchmarking:** [ElevenLabs](https://elevenlabs.io/) - used for generating "Gold Standard" audio for comparison.
+* **Phonetic Target:** [toPhonetics](https://tophonetics.com/) - used for converting text to IPA and comparing pronunciation targets.
 * **Storage:** GitHub with **Git LFS** for audio tracking.
 * **Analysis:** Gemini AI - used for phonetic coaching and mouth-positioning.
 
@@ -43,7 +44,10 @@ Using YouVersion Verse of the Day as the practice resource.
 		 1. Right-click the recording in the sidebar.
 		 2. Select Export Audio...
 		 3. Save as .m4a or .mp3 to the corresponding path: audio/[Language]/[Year]/[Month]/[Day].s[Number].m4a.
-	 - Export Transcript: Copy the text directly or export as a text file to [Language]/[Year]/[Month]/[Day].md.
+	 - Export Transcript: 
+    	 - 	Copy the text and IPA to [Language]/[Year]/[Month]/[Day].md.
+         - 	Copy the text and IPA to Gemini for Analysis & Coaching.
+         - 	Copy Gemini's Analysis & Coaching to [Language]/[Year]/[Month]/[Day].md.
      - Uploading Audio to GitHub:
         
         GitHub does not redender the .m4a file the following is the step to upload the audio file to GitHub for playing back.
