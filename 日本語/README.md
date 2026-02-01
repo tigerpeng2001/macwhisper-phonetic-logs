@@ -24,16 +24,24 @@ Harvest "1-Unknown" (1T) sentences from these high-value sources:
     * **Filtering:** Use the search bar in Spotify/Podcast app to search for **"N3"** or **"N4"**. 
     * **Note:** As a Chinese speaker, start with **N3**; N5/N4 may be too slow for your comprehension level.
 * **Supplemental Sources:**
-    * **[Nihongo con Teppei](https://nihongoconteppei.com/):** Use for "High-Frequency" listening. Best for getting used to natural Japanese rhythm and speed without complex grammar.
-    * **[Learn Japanese with Masa Sensei](https://www.facebook.com/learnjapanesewithmasasensei/):** Use as a "Grammar Reference." If you encounter a confusing particle or verb conjugation in a work email, find his corresponding episode to clarify the rule.
+    * **[Nihongo con Teppei](https://nihongoconteppei.com/):** Use for "High-Frequency" listening. Best for getting used to natural Japanese rhythm and speed.
+    * **[Learn Japanese with Masa Sensei](https://www.facebook.com/learnjapanesewithmasasensei/):** Use as a "Grammar Reference" for confusing particles or conjugations.
 
-## 5. Technical Audio & Pitch Stack
+## 5. Sleep Immersion & Hygiene
+* **Midnight Strategy:** Use podcasts as a "Cognitive Anchor" to fall back asleep after waking. 
+* **Recommended Sources:**
+    * **[Sakura Tips](https://sakuratips.com/):** Slow, calm, and monotonous. Perfect for drifting off.
+    * **[Japanese with Shun](https://shun-japanese.com/):** Very soothing voice and simple structures.
+* **The "Relisten" Rule:** Only listen to episodes you have already studied. Do not use new content for sleep to avoid "puzzle-solving" brain activity.
+* **Setup:** Always use a 30-45 minute sleep timer to protect deep sleep quality.
+
+## 6. Technical Audio & Pitch Stack
 For every mined sentence, build a card using this integrated workflow:
 1. **Native Reference:** Generate high-quality audio using **ElevenLabs**.
 2. **Self-Audit:** Record your own voice and process it through [MacWhisper](https://github.com/tigerpeng2001/macwhisper-phonetic-logs) to generate phonetic logs.
 3. **Pitch Visualizer:** Paste your sentence into [Suzuki-kun: Prosody Tutor](https://www.gavo.t.u-tokyo.ac.jp/ojad/eng/phrasing/index) to generate a pitch contour.
 
-## 6. Anki Card Template
+## 7. Anki Card Template
 
 ### Front
 - {{Sentence_Text}}
@@ -54,7 +62,7 @@ For every mined sentence, build a card using this integrated workflow:
 **Context:**
 - {{Source_Email_or_Bible_Verse}}
 
-## 7. Success Metrics
+## 8. Success Metrics
 * **Anki Efficiency:** Keep daily review time under 30 minutes.
 * **Massive Input:** 2+ hours of passive listening using the audio from your own mined sentences.
 * **Final Goal:** Transition to a Monolingual (Japanese-only) dictionary once you hit 2,000 sentences.
