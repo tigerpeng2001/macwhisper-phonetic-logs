@@ -27,6 +27,9 @@ Harvest [1-Unknown (1T)](https://tatsumoto.neocities.org/blog/one-target-sentenc
 * **Supplemental Sources:**
     * **[Nihongo con Teppei](https://nihongoconteppei.com/):** Use for High-Frequency listening. Best for getting used to natural Japanese rhythm and speed.
     * **[Learn Japanese with Masa Sensei](https://www.facebook.com/learnjapanesewithmasasensei/):** Use as a Grammar Reference for confusing particles or conjugations.
+* **Grammar Reference Workflow:** * Use **[Learn Japanese with Masa Sensei](https://www.facebook.com/learnjapanesewithmasasensei/)** for structured audio explanations.
+    * Use **[Nihongo no Sensei](https://nihongonosensei.net/)** or **[日本語NET](https://nihongokyoshi-net.com/jlpt-grammars/)** dictionaries within Rikaitan to instantly look up grammar patterns found in work emails or the Bible.
+    * **Action:** When a grammar point is the "unknown" in a 1T sentence, include the short explanation from these dictionaries in the "Source Context" field of your Anki card.
 
 ## 5. Sleep Immersion & Hygiene
 * **Midnight Strategy:** Use podcasts as a Cognitive Anchor to fall back asleep. 
