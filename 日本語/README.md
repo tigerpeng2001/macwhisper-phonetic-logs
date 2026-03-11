@@ -2,7 +2,7 @@
 
 ## 1. Accelerated Foundation (The Hanzi Advantage)
 * **Current Deck:** [jp1k](https://ankiuser.net/study)
-* **Target:** 50 new cards per day.
+* **Target:** 2 new, 30 old cards per day
 * **Strategy:** Treat this as a pure Reading and Listening exercise. Since you already understand Hanzi, focus only on the Japanese pronunciation and audio.
 * **Action:** Suspend any cards that only test character meaning to maintain maximum speed.
 
